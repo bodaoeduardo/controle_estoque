@@ -214,4 +214,6 @@ def relatorios_view():
 
 atualizar_pagina()
 
-ft.app(target=main)
+from flet import app, web_browser
+
+app(target=main, view=web_browser)
